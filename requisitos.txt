@@ -1,0 +1,63 @@
+1. Eficiencia Operativa (Tiempos de Viaje)
+Como ya calculaste la diferencia de tiempo, este es tu objetivo más fuerte.
+
+Identificar viajes atípicos (Outliers): Analizar por qué hay registros mayores a 50 minutos y determinar si son errores de sistema o usuarios que excedieron el tiempo permitido.
+
+Calcular el tiempo promedio de viaje: Determinar la duración media por trayecto para establecer un "estándar" de uso.
+
+Analizar el cruce de medianoche: Cuantificar cuántos viajes ocurren entre dos días distintos (los que te daban el error de -1 day) para entender el uso nocturno.
+
+2. Análisis de Demanda y Flujo
+Identificar las "Estaciones Calientes": Determinar cuáles son las estaciones de arribo (ciclo_estacionarribo) con mayor volumen de tráfico.
+
+Determinar horas pico: Agrupar las fechas de retiro por hora para identificar en qué momentos del día hay mayor presión sobre el inventario (ej. horas de entrada al trabajo).
+
+Análisis de rotación: Calcular cuánto tiempo permanece una bicicleta en una estación antes de ser retirada nuevamente.
+
+3. Calidad de los Datos (Data Profiling)
+Cuantificar la integridad del dataset: Medir el impacto de la limpieza de datos (como el 4.25% de nulos que eliminaste) en la confiability de los resultados.
+
+Validación de consistencia: Asegurar que todos los fecha_retiro sean cronológicamente anteriores a fecha_arribo.
+
+*****************************************************************************************************************
+
+Para darle dirección a tu análisis, especialmente ahora que ya has limpiado nulos y calculado duraciones, los objetivos deben dividirse en descriptivos (qué pasó) y estratégicos (qué podemos mejorar).
+
+Aquí tienes una propuesta de objetivos organizados por categorías para tu dataset de estaciones y tiempos:
+
+1. Eficiencia Operativa (Tiempos de Viaje)
+Como ya calculaste la diferencia de tiempo, este es tu objetivo más fuerte.
+
+Identificar viajes atípicos (Outliers): Analizar por qué hay registros mayores a 50 minutos y determinar si son errores de sistema o usuarios que excedieron el tiempo permitido.
+
+Calcular el tiempo promedio de viaje: Determinar la duración media por trayecto para establecer un "estándar" de uso.
+
+Analizar el cruce de medianoche: Cuantificar cuántos viajes ocurren entre dos días distintos (los que te daban el error de -1 day) para entender el uso nocturno.
+
+2. Análisis de Demanda y Flujo
+Identificar las "Estaciones Calientes": Determinar cuáles son las estaciones de arribo (ciclo_estacionarribo) con mayor volumen de tráfico.
+
+Determinar horas pico: Agrupar las fechas de retiro por hora para identificar en qué momentos del día hay mayor presión sobre el inventario (ej. horas de entrada al trabajo).
+
+Análisis de rotación: Calcular cuánto tiempo permanece una bicicleta en una estación antes de ser retirada nuevamente.
+
+3. Calidad de los Datos (Data Profiling)
+Cuantificar la integridad del dataset: Medir el impacto de la limpieza de datos (como el 4.25% de nulos que eliminaste) en la confiability de los resultados.
+
+Validación de consistencia: Asegurar que todos los fecha_retiro sean cronológicamente anteriores a fecha_arribo.
+
+Ejemplo de cómo redactar un objetivo formal
+Si tienes que presentar esto, usa el formato SMART (Específico, Medible, Alcanzable, Relevante y a Tiempo):
+
+"Determinar el top 5 de estaciones con mayor tiempo de espera y el volumen de viajes que superan los 50 minutos durante el último mes, con el fin de proponer una redistribución de unidades."
+
+Sugerencias de Visualización
+Para cumplir estos objetivos, podrías crear:
+
+Histograma de duraciones: Para ver dónde se concentra la mayoría de los viajes (seguramente cerca de los 15-20 min).
+
+Gráfico de barras: Con el conteo de viajes por estación.
+
+Mapa de calor (Heatmap): De horas del día vs. días de la semana.
+
+¿Cuál es el propósito final de tu proyecto? (¿Es para una escuela, un negocio o un portafolio personal?) Esto me ayudará a darte objetivos aún más específicos.
