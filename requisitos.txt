@@ -37,7 +37,8 @@ Analizar el cruce de medianoche: Cuantificar cuántos viajes ocurren entre dos d
 2. Análisis de Demanda y Flujo
 Identificar las "Estaciones Calientes": Determinar cuáles son las estaciones de arribo (ciclo_estacionarribo) con mayor volumen de tráfico.
 
-Determinar horas pico: Agrupar las fechas de retiro por hora para identificar en qué momentos del día hay mayor presión sobre el inventario (ej. horas de entrada al trabajo).
+Determinar horas pico: Agr
+upar las fechas de retiro por hora para identificar en qué momentos del día hay mayor presión sobre el inventario (ej. horas de entrada al trabajo).
 
 Análisis de rotación: Calcular cuánto tiempo permanece una bicicleta en una estación antes de ser retirada nuevamente.
 
