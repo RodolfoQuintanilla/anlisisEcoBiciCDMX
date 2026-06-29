@@ -1,14 +1,18 @@
 1. Eficiencia Operativa (Tiempos de Viaje)
 Como ya calculaste la diferencia de tiempo, este es tu objetivo más fuerte.
 
-Identificar viajes atípicos (Outliers): Analizar por qué hay registros mayores a 50 minutos y determinar si son errores de sistema o usuarios que excedieron el tiempo permitido.
+Identificar viajes atípicos (Outliers): 
+Analizar por qué hay registros mayores a 50 minutos y determinar si son errores de sistema o usuarios que excedieron el tiempo permitido.
 
-Calcular el tiempo promedio de viaje: Determinar la duración media por trayecto para establecer un "estándar" de uso.
+Calcular el tiempo promedio de viaje: 
+Determinar la duración media por trayecto para establecer un "estándar" de uso.
 
-Analizar el cruce de medianoche: Cuantificar cuántos viajes ocurren entre dos días distintos (los que te daban el error de -1 day) para entender el uso nocturno.
+Analizar el cruce de medianoche: 
+Cuantificar cuántos viajes ocurren entre dos días distintos (los que te daban el error de -1 day) para entender el uso nocturno.
 
 2. Análisis de Demanda y Flujo
-Identificar las "Estaciones Calientes": Determinar cuáles son las estaciones de arribo (ciclo_estacionarribo) con mayor volumen de tráfico.
+Identificar las "Estaciones Calientes": 
+Determinar cuáles son las estaciones de arribo (ciclo_estacionarribo) con mayor volumen de tráfico.
 
 Determinar horas pico: Agrupar las fechas de retiro por hora para identificar en qué momentos del día hay mayor presión sobre el inventario (ej. horas de entrada al trabajo).
 
